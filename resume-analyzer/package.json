@@ -1,0 +1,14 @@
+{
+  "name": "resume-analyzer",
+  "version": "1.0.0",
+  "description": "AI Resume Analyzer - MERN Stack with Claude AI",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
