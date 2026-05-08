@@ -169,6 +169,3 @@ The app will be available at `http://localhost:3000`
 - [Express.js](https://expressjs.com) – Backend framework
 - [React](https://reactjs.org) – Frontend framework
 
----
-
-Made with ❤️ using the MERN Stack + Claude AI
